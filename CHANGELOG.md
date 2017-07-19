@@ -5,6 +5,9 @@ This file uses change log convention from [Keep a CHANGELOG](http://keepachangel
 ## [Unreleased]
 
 
+## [0.0.1] - 2017-07-19
+
+
 [Unreleased]: https://github.com/labpositiva/docker-latex/compare/0.0.1...HEAD
 [0.0.1]: https://github.com/labpositiva/docker-latex/compare/0.0.0...0.0.1
 
