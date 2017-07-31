@@ -13,9 +13,10 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get --yes update \
     && apt-get --yes --no-install-recommends --no-install-suggests install texlive \
     texlive-lang-english texlive-lang-german latexmk \
-    texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-math-extra && \
-    apt-get --yes install texlive-xetex texlive-luatex \
+    texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-math-extra \
+    && apt-get --yes install texlive-xetex texlive-luatex \
     fonts-linuxlibertine fonts-inconsolata fonts-oflb-asana-math \
+    graphviz \
     # install java
     && apt-get install -qy openjdk-7-jdk \
     # clean Files
