@@ -19,6 +19,7 @@ RUN apt-get --yes update \
     && apt-get --yes install texlive-xetex texlive-luatex \
     fonts-linuxlibertine fonts-inconsolata fonts-oflb-asana-math \
     graphviz \
+    build-essential \
     # clean Files
     && apt-get clean autoclean \
     && apt-get autoremove \
