@@ -29,7 +29,7 @@ install:
   - make docker.build env=test
 
 before_script:
-  - make docker.build env=test
+  - make install env=test
   - make test.lint
 
 script:
