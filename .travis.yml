@@ -26,10 +26,10 @@ before_install:
 
 install:
   - cp .env-sample .env
-  - make build env=test
+  - make docker.build env=test
 
 before_script:
-  - make install env=test
+  - make docker.build env=test
   - make test.lint
 
 script:
