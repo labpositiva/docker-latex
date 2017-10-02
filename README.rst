@@ -5,6 +5,12 @@ Docker for latex
 
 |Python| |Build Status| |Wercker| |Pyup| |GitHub issues| |license|
 
+:Version: 0.0.0
+:Web: https://github.com/labpositiva/docker-latex
+:Download: http://github.com/labpositiva/docker-latex
+:Source: http://github.com/labpositiva/docker-latex
+:Keywords: docker-latex
+
 Requirements
 ------------
 
