@@ -24,7 +24,7 @@ build:
     - script:
         name: Build dependences
         code: |
-          make docker.build env=test
+          make install env=test
 
     - script:
         name: lint code
@@ -49,7 +49,7 @@ test:
     - script:
         name: Build dependences
         code: |
-          make docker.build env=test
+          make install env=test
 
     - script:
         name: lint code
